@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Cá Nhân - Đặng Nguyên Khôi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body1">
+    <h1 class="container">Trang cá nhân của tôi</h1>
+    <div class="row-flex">
+    
+    <a href="ke-hoach-hoc-tap.html" class="full-card-link">
+        <div class="column">
+            <i class="fas fa-calendar-alt fa-3x"></i>
+            <h3>KẾ HOẠCH HỌC TẬP</h3>
+            <p>Ấn vào đây để xem lịch học chi tiết.</p>
+        </div>
+    </a>
+    
+    <a href="so-thich.html" class="full-card-link">
+        <div class="column">
+            <i class="fas fa-camera fa-3x"></i>
+            <h3>SỞ THÍCH</h3>
+            <p>Ấn vào đây để xem các hoạt động, sở thích.</p>
+        </div>
+    </a>
+    
+    <a href="lien-he.html" class="full-card-link">
+        <div class="column">
+            <i class="fas fa-paper-plane fa-3x"></i>
+            <h3>LIÊN HỆ/GÓP Ý</h3>
+            <p>Ấn vào đây để gửi tin nhắn cho tôi.</p>
+        </div>
+    </a>
+    
+</div>
+</div>
+
+    <h2>LIÊN HỆ/GÓP Ý</h2>
+    <fieldset style="width: 300px;"> 
+        <legend>Thông tin của bạn</legend>
+        <form>
+            <p>
+                <label for="name">Họ Tên:</label>
+                <input type="text" id="name" name="name" required size="40" require placeholder="Nhập họ và tên*">
+            </p>
+
+            <p>
+                <label for="phone">Số điện thoại:</label>
+                <input type="tel" id="phone" name="phone" size="40" require placeholder="Nhập SĐT*">
+            </p>
+                <p>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" size="40" placeholder="Nhập email">
+            </p>
+            <p>
+                <label for="notes">Ghi chú:</label><br>
+                <textarea id="notes" name="notes" rows="4" cols="40" required placeholder="Góp ý"></textarea>
+            </p>
+
+            <p>
+                <input type="submit" value="GỬI THÔNG TIN">
+                <input type="reset" value="NHẬP LẠI">
+            </p>
+            
+        </form>
+    </fieldset>
+
+</div>
+</body>
+</html>
